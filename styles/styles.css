@@ -1,0 +1,14 @@
+#ribbon{
+	background-color: rgb(219,26,26);
+}
+
+#ribbon::after{
+	background-color: transparent;
+	display: block;
+}
+
+#birthday{
+	position: relative;
+	margin-top:-20px;
+}
+
