@@ -29,6 +29,32 @@
 	box-shadow: 0 0 10px rgb(0,0,0,.5);
 }
 
+#birthday img{
+	position: relative;
+	margin-top: -30px;
+
+	}
+
+	.text-shadow{
+		text-shadow: 0 3px 3px rgb(0,0,0,0.6);
+	}
+
+
+#separator-ribbon{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separator-ribbon .content{
+	width: 150%;
+	height: 150px;
+	margin-left: -25%;
+	border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+
+}
 
 
 
