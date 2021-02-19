@@ -8,7 +8,7 @@
 }
 
 #ribbon::after{
-	content: ''
+	content: '';
 	background-color: transparent;
 	display: block;
 	height: 20px;
@@ -78,6 +78,24 @@
 	background-size: 75%;
 	margin-top: -20px;
 }
+
+#separator-amibos{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separator-amibos .content{
+	background: url(/CURSOBOOTSTRAP5/images/bg-03.png);
+	width: 110%;
+	height: 100px;
+	margin-left:-5%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+
 
 
 
