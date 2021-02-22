@@ -73,7 +73,7 @@
 
 .card-games{
 	background-color: rgb(255,255,255);
-	background: url(/CURSOBOOTSTRAP5/images/bg-02.png), linear-gradient(0deg, rgb(255,255,255,1) 0%,rgb(99,196,255,1)57%);
+	background: url(../images/bg-02.png), linear-gradient(0deg, rgb(255,255,255,1) 0%,rgb(99,196,255,1)57%);
 	background-repeat: repeat-x;
 	background-size: 75%;
 	margin-top: -20px;
@@ -87,7 +87,7 @@
 }
 
 #separator-amibos .content{
-	background: url(/CURSOBOOTSTRAP5/images/bg-03.png);
+	background: url(../images/bg-03.png);
 	width: 110%;
 	height: 100px;
 	margin-left:-5%;
@@ -95,6 +95,12 @@
 	border-top-right-radius: 50%;
 }
 
+#amibos{
+	background: url(../images/bg-01.png),url(../images/bg-03.png);
+	background-repeat: no-repeat, repeat;
+	background-position: bottom; center, center center;
+	background-size: 100%, auto;
+}
 
 
 
