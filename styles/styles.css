@@ -102,6 +102,27 @@
 	background-size: 100%, auto;
 }
 
+.amiibo{
+	cursor: pointer;
+	transition: all ease-out 0,.2s;
+}
+
+.amiibo:hover{
+	transform: scale(1.05);
+}
+
+.amiibo-name{
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	display: inline-block;
+	margin:0 auto;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#separator-amiibos-footer{
+	height: 20vw;
+}
 
 
 
