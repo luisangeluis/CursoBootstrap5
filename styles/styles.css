@@ -1,5 +1,7 @@
 
-
+h1,h2,h3,h4,h5,h6, .amiibo-name{
+	font-family: 'Bitter', serif;
+}
 
 
 #ribbon{
@@ -122,6 +124,18 @@
 
 #separator-amiibos-footer{
 	height: 20vw;
+}
+
+#play{
+	background: url(../images/bg-04.png);
+	background-color: rgb(255,255,219);
+	background-size: 40px 40px;
+}
+
+#footer{
+	background: url(../images/bg-04.png);
+	background-color: rgb(224,144,24);
+	background-size: 50px 20px;
 }
 
 
